@@ -15,9 +15,11 @@ def main():
     words = line.split()
     for w in words:
       wordCount = wordCount + 1
-    words = line.split
+    letters = line.split(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z)
+    for l in letters:
+      letterCount = letterCount + 1
   print("Lines:", lineCount)
   print("Words:", wordCount)
-
+  print("Characters:", letterCount)
 if __name__ == '__main__':
   main()
